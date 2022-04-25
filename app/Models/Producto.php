@@ -12,7 +12,8 @@ class Producto extends Model
     protected $keyType="string";
     protected $primaryKey="cod";
 
-    public $timestamps="false";
+// boolean
+    public $timestamps=false;
     public $incrementing="false";
 
 
